@@ -1,4 +1,4 @@
-package pl.javastart.eulderdwa;
+package pl.javastart.eulerdwa.service;
 
 import pl.javastart.eulerdwa.service.EulerService;
 

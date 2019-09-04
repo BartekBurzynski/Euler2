@@ -9,7 +9,7 @@ public class EulerServiceTest {
 
 
     @Test
-    public void shouldReturnFor13() {
+    public void forThirteen_shouldReturnTen() {
         //given
         EulerService euler = new EulerService();
         int x = 13;
@@ -20,7 +20,7 @@ public class EulerServiceTest {
     }
 
     @Test
-    public void shouldReturnFor15() {
+    public void forFifteen_shouldReturnTen() {
         //given
         EulerService euler = new EulerService();
         int x = 15;
@@ -31,7 +31,7 @@ public class EulerServiceTest {
     }
 
     @Test
-    public void shouldReturnFor34() {
+    public void forThirtyFour_shouldReturnFourtyFour() {
         //given
         EulerService euler = new EulerService();
         int x = 34;

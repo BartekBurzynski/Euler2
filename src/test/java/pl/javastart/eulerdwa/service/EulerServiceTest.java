@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import pl.javastart.eulerdwa.service.EulerService;
 
-public class EulerTest {
+public class EulerServiceTest {
 
 
     @Test

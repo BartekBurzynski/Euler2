@@ -1,6 +1,7 @@
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
+import pl.javastart.eulerdwa.service.Euler;
 
 public class EulerTest {
 

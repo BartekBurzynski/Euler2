@@ -1,9 +1,9 @@
 package pl.javastart.eulerdwa.service;
 
-public class Euler {
+public class EulerService {
 
     public static void eulerTwo() {
-        Euler euler = new Euler();
+        EulerService euler = new EulerService();
         int x = euler.calc(4000000);
         System.out.println(x);
     }

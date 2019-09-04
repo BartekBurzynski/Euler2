@@ -1,7 +1,9 @@
+package pl.javastart.eulderdwa;
+
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
-import pl.javastart.eulerdwa.service.Euler;
+import pl.javastart.eulerdwa.service.EulerService;
 
 public class EulerTest {
 
@@ -9,7 +11,7 @@ public class EulerTest {
     @Test
     public void shouldReturnFor13() {
         //given
-        Euler euler = new Euler();
+        EulerService euler = new EulerService();
         int x = 13;
         //when
         int calc = euler.calc(x);
@@ -20,7 +22,7 @@ public class EulerTest {
     @Test
     public void shouldReturnFor15() {
         //given
-        Euler euler = new Euler();
+        EulerService euler = new EulerService();
         int x = 15;
         //when
         int calc = euler.calc(x);
@@ -31,7 +33,7 @@ public class EulerTest {
     @Test
     public void shouldReturnFor34() {
         //given
-        Euler euler = new Euler();
+        EulerService euler = new EulerService();
         int x = 34;
         //when
         int calc = euler.calc(x);

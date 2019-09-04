@@ -1,5 +1,3 @@
-package pl.javastart.eulderdwa;
-
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
